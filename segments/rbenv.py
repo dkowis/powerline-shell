@@ -7,5 +7,3 @@ def add_rbenv_segment(powerline):
         powerline.append(version, 15, 1)
     except OSError:
         return
-
-add_rbenv_segment()
